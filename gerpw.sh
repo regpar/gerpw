@@ -83,7 +83,7 @@ fi
 ## -n --new_entry tag
 
 if [ "$newcounter" = "1" ]; then
-    gerptemp="($mktemp)"
+    gerptemp="$(mktemp)"
     trap on_exit EXIT
     if [ "$usercounter" = "1" ]; then
 	username=$tagname
