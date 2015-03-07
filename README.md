@@ -50,7 +50,7 @@ Basic Syntax:
 
 		-g	generate password using /dev/urandom
 		-e	edit an existing entry
-		-r	rean an encrypted entry
+		-r	read an encrypted entry
 	
 
 Examples:
