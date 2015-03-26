@@ -3,7 +3,7 @@
 ## User Defined Defaults--------------------------
 
 ### GnuPG UserID
-GERPuser=email@email
+gerpuser=email@email
 
 ### Default Editor
 EDITOR="${vi:-nano}"
