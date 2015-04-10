@@ -64,6 +64,13 @@ elif [ "$genecounter" = "1" ] && [ "$passcounter" = "1" ]; then
     exit
 fi
 
+## GPG key ID not defined
+if [ "$gerpuser" = "email@email" ]; then
+	echo
+	echo "please define a pgp key with -i <gpg userid> or change default key in gerpw.sh"
+	echo
+fi	
+
 function on_exit {
     rm -rf "$gerptemp" "$gerptemp2"
 }
