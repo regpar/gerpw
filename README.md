@@ -11,6 +11,8 @@ to use GnuPG as your a password manager. The folder location
 and heirarchies of your encrypted password files are 
 independent of the script.
 
+NOTE: While this script has a simple ramdon password generator, I recommend using a more secure 
+tool to generate your passwords. pwgen and apg are recommended.
 
 Options:
 
