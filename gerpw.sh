@@ -81,7 +81,7 @@ if [ "$genecounter" = "1" ]; then
 echo "generating password:"
     echo "enter password length"
     read pwlength
-    genpw=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w $pwlength | head -n 1);
+    genpw=$(cat /dev/urandom | tr -cd [:graph:] | fold -w $pwlength | head -n 1);
     echo
     echo "Generated Password: $genpw"
     echo				
